@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> chiikawa </title>
+  <link rel="stylesheet" href="css/info.css">
+</head>
+<body>
+  <section>
+    <h2>Cách chơ</h2>
+    <div class="step">
+      <div class="one">
+        <p><span>step 1</span>Hãy tìm và nhấp vào con quái vật ở phía dưới!</p>
+        <div>
+          <img src="img/kimera.png" alt="">
+          <img src="img/pungdang.png" alt="">
+          <img src="img/anoko.png" alt="">
+          <img src="img/star.png" alt="">
+        </div>
+      </div>
+      <div class="two">
+        <p><span>step 2</span>Nhấp vào quái vật để nhận điểm!</p>
+        <div>
+          <img src="img/kimera_hit.png" alt="">
+        </div>
+      </div>
+      <div class="three">
+        <p><span>step 3</span>Nếu nhấp vào nhân vật này, bạn có thể GAME OVER</p>
+        <div>
+          <img src="img/hachiiwoo.png" alt="">
+        </div>
+      </div>
+    </div>
+    <button class="start">Bắt đầu</button>
+  </section>
+  <script>
+    document.querySelector('.start').addEventListener('click',()=>{
+      window.location.href='choice.html';
+    });
+  </script>
+</body>
+</html>

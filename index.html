@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đánh bại quái vật!</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="img/chiikawa.png" type="image/x-icon">
+  <link rel="icon" href="img/chiikawa.png" type="image/x-icon">
+</head>
+<body>
+  <section>
+    <h1>Tiêu diệt quái vật!</h1>
+    <button class="start">Bắt đầu</button>
+    <button class="info">Hướng dẫn</button>
+  </section>
+  <script>
+    document.querySelector('.start').addEventListener('click',()=>{
+      window.location.href='choice.html';
+    });
+    document.querySelector('.info').addEventListener('click',()=>{
+      window.location.href='info.html';
+    });
+  </script>
+</body>
+</html>
